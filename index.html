@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,47 +7,181 @@
     <title>Introduzione a HTML</title>
 </head>
 <body>
-    <h1>Introduzione a HTML</h1>
+    <header>
+        <p>TRAINING HTML</p>
+    </header>
+    <nav>
+        <a href="index.html">HTML</a> |
+        <a href="#">CSS</a> |
+        <a href="#">JavaScript</a> |
+    </nav>
+    <main>
+        <section>
+            <h1>Introduzione a HTML</h1>
+    
+            <p>La dichiarazione <strong>!DOCTYPE html</strong> definisce che questo documento è un documento HTML5</p>
+            <p>L'elemento <strong>html</strong> è l'elemento radice di una pagina HTML</p>
+            <p>L'elemento <strong>head</strong> contiene meta informazioni sulla pagina HTML</p>
+            <p>L'elemento <strong>title</strong> specifica un titolo per la pagina HTML 
+                (che viene mostrato nella barra del titolo del browser o nella scheda della pagina)
+            </p>
+            <p>L'elemento <strong>body</strong> definisce il corpo del documento ed è un contenitore per 
+                tutti i contenuti visibili, come intestazioni, paragrafi, immagini, collegamenti 
+                ipertestuali, tabelle, elenchi, ecc.
+            </p>
+            <p>L'elemento <strong>h1</strong> definisce un'intestazione grande</p>
+            <p>L'elemento <strong>p</strong> definisce un paragrafo</p>
+    
+        </section>
+        <article>
+            <h2>l'elemento HTML &lt;pre&gt;</h2>
+            <pre>
+                L'elemento HTML <strong>pre</strong> definisce il testo preformattato..
+            
+                Il testo all'interno di un <strong>pre</strong> elemento viene visualizzato con un carattere a larghezza fissa.
+    
+                Imparare l'HTML è molto divertente.
+            </pre>
+        </article>
+        
+        <article>
+            <h2>Elementi di formattazione HTML</h2>
+            <p><b>- Testo grassetto con l'elemento "b".</b></p>
+            <p><strong>- Testo importante con l'elemento "strong".</strong></p>
+            <P><i>- Testo in corsivo con l'elemento "i".</i></P>
+            <p><em>- Testo enfatizzato con l'elemento "em".</em></p>
+            <p><mark>- Testo segnato con l'elemento "mark".</mark></p>
+            <p><small>- Testo più piccolo con l'elemento "small".</small></p>
+            <p><del>- Testo cancellato con l'elemento "del".</del></p>
+            <p><ins>- Testo inserito con l'elemento "ins".</ins></p>
+            <p><sub>- Testo in pedice con l'elemento "sub".</sub></p>
+            <p><sup>- Testo in apice con l'elemento "sup".</sup></p>
+        </article>
+        
+        <article>
+            <h2>Collegamenti HTML</h2>
+            <p>Per ulteriori informazioni <a href="https://www.w3schools.com">fai click</a></p>
+        </article>
+        
+        <article>
+            <h2>Immagini HTML</h2>
+            <figure>
+                <img src="medias/SopraSteria.webp" alt="soprasteria img" width="250" height="200">
+                <figcaption>Fig1. - soprasteria, Italy.</figcaption>
+              </figure>
+        </article>
+        <article>
+            <h2>Tabelle HTML</h2>
+            <table>
+                <caption>Il Piano di training</caption>
+                <tr>
+                  <th>Corso</th>
+                  <th>Ore</th>
+                  <th>Tutor</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>10</td>
+                    <td>Filippo</td>
+                </tr>
+                <tr>
+                    <td>REACT</td>
+                    <td>15</td>
+                    <td>Filippo</td>
+                </tr>
+                <tr>
+                    <td>ANGULAR</td>
+                    <td>20</td>
+                    <td>Filippo</td>
+                </tr>
+                <tr>
+                    <td>JAVASCRIPT</td>
+                    <td>25</td>
+                    <td>Filippo</td>
+                </tr>
+              </table>
+        </article>
+        <section>
+            <h1>Elenchi HTML</h1>
+            <p>Gli elenchi HTML consentono agli sviluppatori Web di raggruppare una serie di
+                 elementi correlati negli elenchi.
+            </p>
+        </section>
+        <article>
+            <h2>Elenco HTML non ordinato</h2>
+            <ul>
+                <li>Html</li>
+                <li>JavaScript</li>
+                <li>React</li>
+              </ul>
+        </article>
+        <article>
+            <h2>Elenco HTML ordinato</h2>
+            <ol>
+                <li>Html</li>
+                <li>JavaScript</li>
+                <li>React</li>
+            </ol>
+        </article>
+        <article>
+            <h2>Elenchi di descrizioni HTML</h2>
+            <dl>
+                <dt>Html</dt>
+                <dd>- lo sto imparando</dd>
+                <dt>JavaScript</dt>
+                <dd>- lo devo ancora imparare</dd>
+              </dl>
+        </article>
+        <section>
+            <h1>Moduli HTML</h1>
+        </section>
+        <article>
+            <h2>Campi di testo</h2>
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome"><br>
+                <label for="cognome">Cognome:</label><br>
+                <input type="text" id="cognome" name="cognome"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+        </article>
 
-    <p>La dichiarazione <strong>!DOCTYPE html</strong>definisce che questo documento è un documento HTML5</p>
-    <p>L'elemento <strong>html</strong> è l'elemento radice di una pagina HTML</p>
-    <p>L'elemento <strong>head</strong> contiene meta informazioni sulla pagina HTML</p>
-    <p>L'elemento <strong>title</strong> specifica un titolo per la pagina HTML 
-        (che viene mostrato nella barra del titolo del browser o nella scheda della pagina)
-    </p>
-    <p>L'elemento <strong>body</strong> definisce il corpo del documento ed è un contenitore per 
-        tutti i contenuti visibili, come intestazioni, paragrafi, immagini, collegamenti 
-        ipertestuali, tabelle, elenchi, ecc.
-    </p>
-    <p>L'elemento <strong>h1</strong> definisce un'intestazione grande</p>
-    <p>L'elemento <strong>p</strong> definisce un paragrafo</p>
+        <article>
+            <h2>Checkbox Html</h2>
+            <form>
+                <input type="checkbox" id="htmlchk" name="html" value="HTML">
+                <label for="html"> ho imparato html</label><br>
+                <input type="checkbox" id="js" name="javascript" value="JS">
+                <label for="js"> devo imparare Js</label><br>
+              </form>
+        </article>
+        <article>
+            <h2>Radio button html</h2>
+            <form>
+                <input type="radio" id="html" name="html" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="react" name="react" value="REACT">
+                <label for="react">REACT</label><br>
+                <input type="radio" id="javascript" name="javascript" value="JS">
+                <label for="javascript">JavaScript</label><br>
+                <input type="radio" id="angular" name="angular" value="ANGULAR">
+                <label for="javascript">Anguler</label>
+              </form>
+        </article>
 
-    <h2>l'elemento HTML <pre></pre></h2>
-    <pre>
-        L'elemento HTML <strong>pre</strong> definisce il testo preformattato..
-      
-        Il testo all'interno di un <strong>pre</strong> elemento viene visualizzato con un carattere a larghezza fissa.
-
-        Imparare l'HTML è molto divertente.
-      
-      </pre>
-
-    <h2>Elementi di formattazione HTML</h2>
-    <p><b>- Testo grassetto con l'elemento "b".<b></b></p>
-    <p><strong>- Testo importante con l'elemento "strong".</strong></p>
-    <P><i>- Testo in corsivo con l'elemento "i".</i></P>
-    <p><em>- Testo enfatizzato con l'elemento "em".</em></p>
-    <p><mark>- Testo segnato con l'elemento "mark".</mark></p>
-    <p><small>- Testo più piccolo con l'elemento "small".</small></p>
-    <p><del>- Testo cancellato con l'elemento "del".</del></p>
-    <p><ins>- Testo inserito con l'elemento "ins".</ins></p>
-    <p><sub>- Testo in pedice con l'elemento "sub".</sub></p>
-    <p><sup>- Testo in apice con l'elemento "sup".</sup></p>
-
-    <h2>Collegamenti HTML</h2>
-    <p>Per ulteriori informazioni <a href="https://www.w3schools.com">fai click</a></p>
-
-    <h2>Immagini HTML</h2>
-    <img src="medias/SopraSteria.webp" alt="soprasteria img" width="250" height="200">
+        <section>
+            <h1>Riepilogo HTML</h1>
+            <p>Questo tutorial ti ha insegnato come usare l'HTML per creare il tuo sito web.<br>
+                HTML è il linguaggio di markup universale per il Web. L'HTML ti consente di formattare
+                il testo, aggiungere grafica, creare collegamenti, moduli di input, frame e tabelle, 
+                ecc. e salvare tutto in un file di testo che qualsiasi browser può leggere e visualizzare.
+            </p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Author: Belbeni Makani</p>
+        <p><a href="mailto:belbenimakani@gmail.com">belbenimakani@gmail.com</a></p>
+    </footer>
 </body>
 </html>
