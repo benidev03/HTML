@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Nunito Sans';
+    display: flex;
+    flex-direction: column;
+}
+
+/************************** HEADER STYLE *************************/
+header{
+    background-color: #333;
+    height: 60px;
+    width: 100%;
+    border-bottom: 4px solid #00a8a8;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.title{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 6px #032525;
+    line-height: 60px;
+    font-size: 20px;
+}
+nav label{
+    margin-left: 40px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+    text-transform: uppercase;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0px 10px;
+    
+}
+nav ul li a{
+    color: #FFFFFF;
+    border-bottom: 2px solid transparent;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #00a8a8;
+    border-color: #FFFFFF;
+}
+
+/************************** MAIN STYLE *************************/
+
+main{
+    flex-grow: 1;
+}
+
+
+/************************** MAIN STYLE *************************/
+
+footer{
+    background: #333;
+    height: 80px;
+    width: 100%;
+    border-top: 4px solid #00a8a8;
+    box-shadow: 0px 0px 10px #000;
+    text-align: center;
+    
+}
+footer p{
+    color: #FFFFFF;
+    padding: 10px;
+}
+footer p a{
+    color: #FFFFFF; 
+}
+footer p a:hover{
+    color: #00a8a8;
+    border-color: #FFFFFF; 
+}
